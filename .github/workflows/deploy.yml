@@ -8,9 +8,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
+      - uses: actions/checkout@v3
       - name: Deploy placeholder
         run: echo "Deployed successfully"
-        working-directory: ${{ github.workspace }}
