@@ -1,10 +1,12 @@
 Weather App – Dev Ops Assignment Readme
+
 🌤️ Weather Dashboard Web App
+
 👥 Group Information
 
-Student 1: Nimna Wijerathne - ITBIN-2313-0128 - Role: Frontend Developer
+Nimna Wijerathne   - ITBIN-2313-0128   - Role: Frontend Developer
 
-Student 2: Demini Bagya - ITBIN-2313-0104 - Role: Backend / API Developer
+Demini Senarathnem - ITBIN-2313-0105   - Role: DevOps Engineer
 
 📌 Project Description
 
@@ -12,7 +14,7 @@ The Weather Dashboard Web App is a web-based application that allows users to se
 
 🌍 Live Deployment
 
-🔗 Live URL: Add your deployed application URL here
+🔗 Live URL: weather-dashboard-26.netlify.app
 
 🛠️ Technologies Used
 
@@ -40,13 +42,14 @@ Responsive user interface
 
 We implemented the following branching strategy:
 
-main – Production branch
+main    –  Production branch
 
-develop – Integration branch
+develop –  Integration branch
 
-feature/* – Feature development branches
+feature –  Feature development branches
 
 👤 Individual Contributions
+
 Nimna Wijerathne (ITBIN-2313-0128)
 
 Frontend UI development using HTML & CSS
@@ -57,7 +60,7 @@ Integration testing with backend API responses
 
 Contributed commits related to UI layout and styling
 
-Demini Bagya (ITBIN-2313-0104)
+Demini Senarathna (ITBIN-2313-0105)
 
 Backend JavaScript logic implementation
 
@@ -74,3 +77,4 @@ Node.js (version 18 or higher)
 
 Git
 repository Link - https://github.com/deminisenarathne-glitch/Weather-App.git
+
