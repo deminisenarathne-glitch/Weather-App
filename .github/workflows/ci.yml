@@ -11,16 +11,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      # Checkout the rep
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
+      # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
+      # Lint JS files
       - name: Lint JS files
         run: npm run lint
+
