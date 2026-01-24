@@ -21,6 +21,10 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ${{ github.workspace }}
 
       - name: Lint JS files
         run: npm run lint
+        working-directory: ${{ github.workspace }}
+
+

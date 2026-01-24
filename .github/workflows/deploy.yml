@@ -13,4 +13,4 @@ jobs:
 
       - name: Deploy placeholder
         run: echo "Deployed successfully"
-        working-directory: .
+        working-directory: ${{ github.workspace }}
