@@ -4,7 +4,7 @@ Weather App – Dev Ops Assignment Readme
 
 Student 1: Nimna Wijerathne - ITBIN-2313-0128 - Role: Frontend Developer
 
-Student 2: Demini Bagya - ITBIN-2313-0104 - Role: Backend / API Developer
+Student 2: Demini Bagya - ITBIN-2313-0105 - Role: Backend / API Developer
 
 📌 Project Description
 
@@ -74,3 +74,4 @@ Node.js (version 18 or higher)
 
 Git
 repository Link - https://github.com/deminisenarathne-glitch/Weather-App.git
+
