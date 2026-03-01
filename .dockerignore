@@ -1,6 +1,24 @@
-This is the show small current Docker ignore file. Can you tell me the correct full version of it?.git
-.gitignore
+# Node modules
 node_modules
-Dockerfile
-docker-compose.yml
+npm-debug.log
+
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor folders
+.vscode
+.idea
+
 README.md
