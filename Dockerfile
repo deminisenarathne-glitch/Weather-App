@@ -1,4 +1,3 @@
-cat > Dockerfile << 'EOF'
 FROM nginx:alpine
 
 # Install wget for healthcheck
@@ -21,4 +20,3 @@ USER nginx
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
-EOF
