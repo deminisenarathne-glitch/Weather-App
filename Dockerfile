@@ -11,11 +11,10 @@ COPY index.html /usr/share/nginx/html/
 COPY style.css /usr/share/nginx/html/
 COPY src /usr/share/nginx/html/src/
 
-# Change ownership to nginx user
+# Change ownership to nginx user (optional, but keeps files owned by nginx)
 RUN chown -R nginx:nginx /usr/share/nginx/html
 
-# Switch to non-root user
-USER nginx
+# Do NOT switch user – let nginx run as root (it will spawn worker processes as nginx)
 
 EXPOSE 80
 
