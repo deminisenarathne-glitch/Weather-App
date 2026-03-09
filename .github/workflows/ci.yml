@@ -31,4 +31,3 @@ jobs:
 
       - name: Run tests
         run: npm test || echo "Tests completed"
-EOF
