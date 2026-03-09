@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # Weather Dashboard – DevOps Assignment 2
 
 ## Group Information
@@ -57,4 +57,5 @@ cd Weather-App
 docker build -t weather-app .
 
 # Run the container
+
 docker run -p 8080:80 weather-app
