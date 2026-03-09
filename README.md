@@ -1,80 +1,60 @@
-Weather App – Dev Ops Assignment Readme
+cat > README.md << 'EOF'
+# Weather Dashboard – DevOps Assignment 2
 
-🌤️ Weather Dashboard Web App
+## Group Information
+- **Nimna Wijerathne** - ITBIN-2313-0128 - Role: Frontend Developer
+- **Demini Senarathna** - ITBIN-2313-0105 - Role: DevOps Engineer
 
-👥 Group Information
+## Project Description
+A web-based weather dashboard that displays current weather and 5-day forecast using OpenWeatherMap API.
 
-Nimna Wijerathne   - ITBIN-2313-0128   - Role: Frontend Developer
+## Live Deployment
+🔗 [Live URL](https://weather-dashboard-26.netlify.app)
 
-Demini Senarathnem - ITBIN-2313-0105   - Role: DevOps Engineer
+## Technologies Used
+- HTML5, CSS3, JavaScript
+- OpenWeatherMap API
+- Docker & Docker Compose
+- GitHub Actions (CI/CD)
+- Netlify (Hosting)
 
-📌 Project Description
+## Features
+- Search weather by city
+- Current weather details (temp, humidity, wind, pressure)
+- 5-day forecast
+- Responsive design
 
-The Weather Dashboard Web App is a web-based application that allows users to search for real-time weather information and view a 5-day weather forecast for any city. The application fetches live data from the OpenWeatherMap API and displays weather details such as temperature, humidity, wind speed, and pressure through a clean and user-friendly interface.
+## Branch Strategy
+- `main` – production branch
+- `develop` – integration branch
+- `feature/*` – feature development branches
 
-🌍 Live Deployment
+## Individual Contributions
+### Nimna Wijerathne (ITBIN-2313-0128)
+- Frontend UI design and implementation
+- Responsive layout with CSS
+- Integration testing with API responses
 
-🔗 Live URL: weather-dashboard-26.netlify.app
+### Demini Senarathna (ITBIN-2313-0105)
+- JavaScript logic for API integration
+- Error handling and data processing
+- Docker containerization (Dockerfile, docker-compose.yml, .dockerignore)
+- CI/CD pipeline configuration (GitHub Actions workflows)
+- Deployment setup on Netlify
 
-🛠️ Technologies Used
+## Docker Setup
+### Prerequisites
+- Docker and Docker Compose installed
+- Git
 
-HTML5, CSS3, JavaScript
+### Build and Run with Docker
+```bash
+# Clone the repository
+git clone https://github.com/deminisenarathne-glitch/Weather-App.git
+cd Weather-App
 
-OpenWeatherMap API
+# Build the Docker image
+docker build -t weather-app .
 
-Git & GitHub
-
-GitHub Actions (CI/CD)
-
-Netlify (Deployment Platform)
-
-✨ Features
-
-Search weather by city name
-
-Display current weather details
-
-5-day weather forecast
-
-Responsive user interface
-
-🌿 Branch Strategy
-
-We implemented the following branching strategy:
-
-main    –  Production branch
-
-develop –  Integration branch
-
-feature –  Feature development branches
-
-👤 Individual Contributions
-
-Nimna Wijerathne (ITBIN-2313-0128)
-
-Frontend UI development using HTML & CSS
-
-Responsive layout implementation
-
-Integration testing with backend API responses
-
-Contributed commits related to UI layout and styling
-
-Demini Senarathna (ITBIN-2313-0105)
-
-Backend JavaScript logic implementation
-
-OpenWeatherMap API integration
-
-Weather data processing and error handling
-
-Contributed commits related to API fetching and functionality
-
-⚙️ Setup Instructions
-Prerequisites
-
-Node.js (version 18 or higher)
-
-Git
-repository Link - https://github.com/deminisenarathne-glitch/Weather-App.git
-
+# Run the container
+docker run -p 8080:80 weather-app

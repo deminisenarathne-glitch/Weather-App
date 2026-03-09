@@ -4,8 +4,9 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-   "lint": "npx eslint src/**/*.js"
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "npx eslint src/**/*.js",
+    "build": "echo \"No build step needed\" && exit 0"
   },
   "repository": {
     "type": "git",
